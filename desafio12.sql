@@ -1,0 +1,1 @@
+SELECT submitted_date FROM purchase_orders WHERE DATE(submitted_date) = STR_TO_DATE('26/04/2006', '%d/%m/%Y');
